@@ -1,0 +1,67 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:700&display=swap');
+body{
+	background-image: url("../images/background.png");
+	font-family: 'Noto Sans KR';
+}
+.col-md-6{
+	background-color:white;
+	height:700px;
+	padding-top:40px;
+}
+.logout{
+	text-align: end;
+    font-size: small;
+}
+.logout a{
+	color:black;
+}
+.col-md-6 image{
+	display:inline-bolck;
+}
+.col-md-6 .sungkyul{
+	display:inline-block;
+	font-weight:bold;
+	font-size:21px;
+	text-align:center;
+	width:70%;
+	color:#2F78B8;
+}
+.notice{
+	border : 1px solid #FAFAFA;
+	background-color : #FAFAFA;
+
+	height:200px;
+	margin:auto;
+	margin-top:15px;
+	box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+.notice ul{
+	margin-top:20px;
+}
+.notice ul li{
+	margin-top: 5px;
+	margin-left:-3%;
+}
+.notice ul li a{
+	color:black;
+	font-size:smaller;
+}
+.write{
+	font-size: small;
+    margin-left: 10px;
+}
+.votelogo{
+	border : 1px solid #B5EBFF;
+	border-radius :5px;
+	margin:auto;
+	margin-top:10%;
+	width:80%;
+	background-color:#B5EBFF; 
+	box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+	
+}
+.votelogo img{
+	margin-left:11%;
+	background-color:#B5EBFF; 
+}
